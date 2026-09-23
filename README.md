@@ -1,6 +1,6 @@
 # Evident — Reasoning Probes for Argumentation Mining in UN Resolutions
 
-Team **POINTERS** submission for the [UZH ArgMining 2026 Shared Task]([https://github.com/ZurichNLP/ArgMining-2026-UZH-Shared-Task](https://shared-task-argmining.linguistik.uzh.ch/)) — recovering argumentative structure from UN/UNESCO resolutions.
+Team **POINTERS** submission for the [UZH ArgMining 2026 Shared Task](https://shared-task-argmining.linguistik.uzh.ch/) — recovering argumentative structure from UN/UNESCO resolutions.
 
 The pipeline applies the **Evident Framework** to resolution analysis: preambular paragraphs are treated as evidence and operative paragraphs as the claims they support, with four named reasoning strategies bridging the two. Structured **reasoning probes** embedded in every prompt require the model to quote verbatim evidence, name the logical mechanism, and explicitly rule out an alternative — making each decision grounded and falsifiable. Generation runs fully locally using **Qwen3-8B-GGUF (Q8_0)** via `llama-cpp-python`; no cloud API is needed.
 
